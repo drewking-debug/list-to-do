@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Black background for the whole page */
+    color: gold; /* Gold text as the primary color */
+  }
+  
+  .header {
+    background-color: black; /* Black header background */
+    color: gold; /* Gold text in the header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid gold; /* Gold border for styling */
+  }
+  
+  .double {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  #items {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gold; /* Gold border for the input */
+    background-color: black; /* Black background for the input */
+    color: gold; /* Gold text */
+  }
+  
+  #items::placeholder {
+    color: gold; /* Gold placeholder text */
+    opacity: 0.8;
+  }
+  
+  .itembtn {
+    background-color: gold; /* Gold background for the button */
+    color: black; /* Black text for contrast */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid gold; /* Gold border for consistency */
+    margin-left: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .itembtn:hover {
+    background-color: black; /* Hover effect: Black background */
+    color: gold; /* Gold text */
+    border: 2px solid gold; /* Border remains gold */
+  }
+  
+  /* List Styles */
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list li {
+    background: black; /* Black background for list items */
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border: 1px solid gold; /* Gold border for list items */
+    font-size: 18px;
+    color: gold; /* Gold text */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .list li:hover {
+    background: gold; /* Hover effect: Gold background */
+    color: black; /* Black text */
+  }
+  
+  .list li.checked {
+    text-decoration: line-through;
+    background: gold; /* Checked items get a gold background */
+    color: black; /* Black text */
+  }
+  
+  /* Close Button */
+  .close {
+    float: right;
+    font-size: 20px;
+    color: gold; /* Gold close button */
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .close:hover {
+    color: black; /* Hover effect: Black close button */
+  }
+  
